@@ -1,68 +1,54 @@
-* {
-    font-family:Arial, Helvetica, sans-serif;
+/* General */
+body, html {
+    height:100%;
 }
-
 body {
-    padding: 0% 3%;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: #202020;
     color: white;
 }
 
-ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-li {
-    list-style: none;
-    padding: 5px 0px;
-    background-color: black;
-    
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 50px;
-    border-right: white;
-    border-right-style: solid;
-    border-width: 1px;
-    transition: 0.5s;
-}
-
-li a:hover {
-    background-color: rgb(115, 115, 115);
-    transition: 0.5s;
-}
-
-img {
-    max-width: 100%;
-    max-height: 5%;
-    border: white;
-    border-style: solid;
-    border-width: 1px;
-}
-
-p {
-    font-size: 150%;
-}
-
-
-
-.navBar {
-    display: flex;
-    flex-direction: row;
-    padding-right: 10px;
-    color: white;
-}
-
-.textBox {
-    background-color: #181818;
-    border-radius: 10px;
-
-    padding: 0px 10px;
+/* Main */
+.main {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    
+    background-image: url('Images/Background.jpg');
+    background-position: center;
+    height: 100%;
 }
+.main .text {
+    text-align: center;
+    height:fit-content;
+    background-color: #202020;
+    padding: 30px 15px;
+    border-radius: 5px;
+}
+.main .text strong {
+    font-size: 50px;
+}
+
+.main .links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.main .links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #202020;
+}
+
+/* About */
+
+
+
+/* Portfolio */
+
+
+
+/* Social */
