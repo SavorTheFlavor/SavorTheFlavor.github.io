@@ -8,8 +8,8 @@ body {
     color: white;
 }
 
-/* Main */
-.main {
+/* home */
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,33 +18,64 @@ body {
     background-position: center;
     height: 100%;
 }
-.main .text {
+.home .text {
     text-align: center;
     height:fit-content;
     background-color: #202020;
     padding: 30px 15px;
     border-radius: 5px;
 }
-.main .text strong {
+.home .text strong {
     font-size: 50px;
 }
 
-.main .links a {
+.home .links a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
-.main .links ul {
+.home .links ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding: 10px;
     border-radius: 5px;
     background-color: #202020;
+    padding: 10px;
+}
+.home .links ul :hover {
+    background-color: #353535;
+    transition: 0.5s;
 }
 
 /* About */
+.about {
+    margin: 5px auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 30px;
+    background-color: #202020;
+}
+.container {
+    margin: 50px;
+    max-width: 1000px;
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 30px;
+}
 
+.about h1 {
+    text-align: center;
+}
+.about h3 {
+    margin: none;
+    padding: none;
+}
+.about .whoami, .skills {
+    padding: 10px;
+    margin-bottom: 50px;
+    border: solid white;
+}
 
 
 /* Portfolio */
