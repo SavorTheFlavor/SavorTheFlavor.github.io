@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     background-image: url('Images/Background.jpg');
     background-position: center;
+    background-repeat: no-repeat;
     height: 100%;
 }
 .home .text {
@@ -42,6 +43,7 @@ body {
     border-radius: 5px;
     background-color: #202020;
     padding: 10px;
+    font-size: 1.1pc;
 }
 .home .links ul :hover {
     background-color: #353535;
@@ -51,19 +53,21 @@ body {
 /* About */
 .about {
     margin: 5px auto;
-    max-width: 1000px;
+    max-width: 60pc;
     text-align: center;
-    padding: 30px;
     background-color: #202020;
 }
 .container {
     margin: 50px;
-    max-width: 1000px;
+    max-width: 60pc;
     background-color: #111111;
     border-radius: 10px;
     padding: 30px;
 }
 
+.about p {
+    font-size: 1.25pc;
+}
 .about h1 {
     text-align: center;
 }
@@ -79,7 +83,22 @@ body {
 
 
 /* Portfolio */
-
+.portfolio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio img {
+    width: 100%;
+}
+.portfolio .container {
+    width: 50pc;
+}
+.portfolio .contents {
+    font-size: 1.5pc;
+    margin: 1pc;
+}
 
 
 /* Social */
