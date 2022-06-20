@@ -2,53 +2,25 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: #202020;
     color: white;
-}
-
-.monitor {
-    padding:15%;
-    margin: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
 }
 
-.monitor .screen {
-    width: 350px;
-    height: 300px;
-    border: white solid;
+h1 {
+    border: solid white 5px;
+    border-radius: 100%;
+    padding: 50px 40px;
 }
-.monitor .screen .text {
-    margin: 25px 25px;
-}
-p {
-    padding: 10px;
-}
+
+
 a {
-    background-color: transparent;
+    transition: 0.5s;
+    margin-top: 5px;
     color: white;
-    padding: 10px;
-    border: solid 1px;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: 0.25s;
-
-    margin: 80px;
 }
 a:hover {
-    background-color: grey;
-    transition: 0.25s;
-}
-
-.monitor .arm {
-    width: 75px;
-    height: 75px;
-    border-left: white solid;
-    border-right: white solid;
-    
-}
-
-.monitor .base {
-    width: 150px;
-    height: 15px;
-    border: white solid;
+    font-size : 25px;
 }

@@ -23,7 +23,8 @@ body {
     text-align: center;
     height:fit-content;
     background-color: #202020;
-    padding: 30px 15px;
+    padding: 3% 2%;
+    min-width: 250px;
     border-radius: 5px;
 }
 .home .text strong {
@@ -99,6 +100,3 @@ body {
     font-size: 1.5pc;
     margin: 1pc;
 }
-
-
-/* Social */
